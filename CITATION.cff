@@ -9,7 +9,7 @@ message: >-
   Repositório para arquivos e exercícios do
   Laboratório de Redes de Computadores com o Cisco
   Packet Tracer
-type: software
+type: manual
 authors:
   - given-names: Andre
     family-names: Leon Sampaio Gradvohl
