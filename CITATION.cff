@@ -11,8 +11,8 @@ message: >-
   Packet Tracer
 type: software
 authors:
-  - given-names: Andre Leon
-    family-names: Sampaio Gradvohl
+  - given-names: Andre
+    family-names: Leon Sampaio Gradvohl
     email: gradvohl@unicamp.br
     affiliation: Universidade Estadual de Campinas
     orcid: 'https://orcid.org/0000-0002-6520-9740'
