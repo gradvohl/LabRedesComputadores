@@ -1,0 +1,27 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: >-
+  Laboratório de Redes de Computadores com o Cisco
+  Packet Tracer
+message: >-
+  Repositório para arquivos e exercícios do
+  Laboratório de Redes de Computadores com o Cisco
+  Packet Tracer
+type: software
+authors:
+  - given-names: Andre Leon
+    family-names: Sampaio Gradvohl
+    email: gradvohl@unicamp.br
+    affiliation: Universidade Estadual de Campinas
+    orcid: 'https://orcid.org/0000-0002-6520-9740'
+identifiers:
+  - type: url
+    value: >-
+      https://github.com/gradvohl/LabRedesComputadores
+keywords:
+  - Redes de Computadores
+  - Simulação
+  - Laboratório
+license: CC-BY-4.0
