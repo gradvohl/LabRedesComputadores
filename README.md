@@ -14,7 +14,7 @@ O material foi originalmente concebido para apoio à disciplina Redes de Comunic
 
  
 ## 🚀 Sobre mim
-MAis informações sobre o autor podem ser encontradas no [GitHub](https://github.com/gradvohl).
+Mais informações sobre o autor podem ser encontradas no [GitHub](https://github.com/gradvohl).
 
 
 ## Licença
