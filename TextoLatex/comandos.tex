@@ -1,0 +1,73 @@
+\newcommand{\Comando}[1]{{\color{blue}\texttt{#1}}}
+%
+\newcommand{\ComandoParametros}[2]{%
+\mbox{\textcolor{blue}{\texttt{#1}}%
+\xspace\textcolor{red}{\texttt{#2}}}%
+}%fim ComandoParametros
+
+\newcommand{\ComandoDoisParametros}[3]{%
+\textcolor{blue}{\texttt{\textbackslash{#1}}}%
+\textcolor{red}{\texttt{\{}}%
+\texttt{#2}%
+\textcolor{red}{\texttt{\}}}%
+\textcolor{red}{\texttt{\{}}%
+\texttt{#3}%
+\textcolor{red}{\texttt{\}}}%
+}%fim ComandoDoisParametros
+
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+\definecolor{orcidlogocol}{HTML}{A6CE39}
+\definecolor{twitterlogocol}{RGB}{29,161,242}
+\definecolor{linkedinlogocol}{RGB}{10,102,194}
+\definecolor{mastodonlogocol}{RGB}{160,32,240}
+
+\lstdefinestyle{MyCStyle}{language=C,
+  belowcaptionskip=1\baselineskip,
+  breaklines=true,
+  postbreak=\mbox{\textcolor{blue}{$\hookrightarrow$}\space},
+  xleftmargin=\parindent,
+  showstringspaces=false,
+  basicstyle=\linespread{.8}\footnotesize\fontencoding{T1}\fontfamily{fvm}\selectfont,
+   %identifierstyle=\color{blue},
+  commentstyle=\color{codegreen},
+  keywordstyle=\color{magenta},
+  numberstyle=\tiny\color{codegray},
+  stringstyle=\color{codepurple},
+  frame = single, 
+}
+
+\newcommand{\lstprompt}{\$}
+\renewcommand*\thelstnumber{\lstprompt}
+\lstdefinestyle{MyBashStyle}{language=bash,
+  basicstyle=\fontencoding{T1}\fontfamily{fvm}\selectfont,
+  %xleftmargin=\parindent,
+  xleftmargin=2.7ex,
+  morecomment=[s][\color{red}]{-}{\ }, 
+  morecomment=[s][\color{red}]{--}{\ },
+  morekeywords={uname,gcc,top,grep,ping,ip,bandwidth},%
+  showstringspaces=false,
+  commentstyle=\color{orange},
+  keywordstyle=\color{blue},
+  numbers=left,
+  numberstyle=\color{codegreen}\fontencoding{T1}\fontfamily{fvm}\selectfont\,
+}
+
+\lstdefinestyle{outputStyle}{
+    basicstyle=\footnotesize\fontencoding{T1}\fontfamily{fvm}\selectfont,
+    identifierstyle=\color{black},
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    xleftmargin=\parindent,
+    postbreak=\mbox{\textcolor{blue}{$\hookrightarrow$}\space},
+}
+
+\newcommand{\CPT}{Cisco Packet Tracer\xspace}
+\newcommand{\semaspas}[1]{\enquote{\texttt{#1}} {\footnotesize (sem aspas)}\xspace}
