@@ -8,10 +8,10 @@ message: >-
   Repositório para arquivos e exercícios do
   Laboratório de Redes de Computadores com o Cisco
   Packet Tracer
-type: software
+type: dataset
 authors:
-  - given-names: Andre
-    family-names: Leon Sampaio Gradvohl
+  - given-names: Andre Leon Sampaio
+    family-names: Gradvohl
     email: gradvohl@unicamp.br
     affiliation: Universidade Estadual de Campinas
     orcid: 'https://orcid.org/0000-0002-6520-9740'
