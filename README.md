@@ -1,5 +1,5 @@
 
-# Laboratório de Redes de Computadores com o Cisco Packet Tracer
+# Atividades para o Laboratório de Redes de Computadores com o Cisco Packet Tracer
 
 O texto deste repositório propõe algumas atividades práticas para a consolidação dos conceitos abordados na disciplina Redes de Comunicação I, utilizando o software Cisco Packet Tracer. 
 
